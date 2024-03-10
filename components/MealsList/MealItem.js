@@ -8,7 +8,7 @@ import {
 	Platform,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native"; //MealItem is not registered as a screen so we must use this hook
-import MealDetails from "./MealDetails";
+import MealDetails from "../MealDetails";
 export default function MealItem({
 	id,
 	title,
